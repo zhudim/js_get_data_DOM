@@ -1,0 +1,2 @@
+var t,e,n,r=function(t){return t.toLocaleString("en-US",{maximumFractionDigits:0})},o=function(t,e){var n=document.querySelector(t);n&&(n.textContent=e)},a=(n=Math.round((e=(t=Array.from(document.querySelectorAll(".population")).map(function(t){return t.textContent}).map(function(t){return/^\d+$/.test(t.replace(/,/g,"").trim())?parseInt(t.replace(/,/g,"").trim(),10):0})).reduce(function(t,e){return t+e},0))/t.length),{total:e,average:n}),u=a.total,i=a.average;o(".total-population",r(u)),o(".average-population",r(i));
+//# sourceMappingURL=index.4b95c0a2.js.map
